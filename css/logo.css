@@ -13,9 +13,34 @@ body
     height: 300px;
     width: 500px;
     margin: auto;
+    filter: invert(100%);
 }
 
-.fondo
+.logo
 {
-    image-po
+    border-radius: 15px;
+    display: flex;
+    background-image: url(../images/logo.jpeg);
+    background-position: center;
+    margin: -270px auto;
+    justify-content: center;
+    position: relative;
+    width: 7%;
+    height: 100px;
+    background-size: 120%;
+    padding: 30px 23px; 
+}
+
+.eslogan
+{
+    border-radius: 10px;
+    color: seagreen;
+    font-size: 10px;
+    display: flex;
+    margin: 300px auto;
+    justify-content: center;
+    position: relative;
+    background-color: silver;
+    width: max-content;
+    padding: 5px;
 }
