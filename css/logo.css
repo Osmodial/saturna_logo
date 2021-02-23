@@ -16,6 +16,22 @@ body
     filter: invert(100%);
 }
 
+.footsign
+{
+  font-family: 'Major Mono Display';
+  text-align: center;
+  font-size: 78%;
+  margin:267px auto;
+  border-radius: 10px;
+  color: rgb(243, 240, 235);
+}   
+
+.Nvn
+{
+  text-decoration: line-through;
+  color: inherit;
+}
+
 .logo
 {
     border-radius: 15px;
