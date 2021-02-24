@@ -1,3 +1,5 @@
+@import url(https://fonts.google.com/specimen/Cutive+Mono?category=Monospace&preview.text_type=custom#standard-styles);
+
 body
 {
     background-color: darkred;
@@ -50,8 +52,10 @@ body
 .eslogan
 {
     border-radius: 10px;
+    font-family: 'Cutive Mono';
     color: seagreen;
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 900;
     display: flex;
     margin: 300px auto;
     justify-content: center;
@@ -59,4 +63,10 @@ body
     background-color: silver;
     width: max-content;
     padding: 5px;
+    text-align: center;
+}
+
+@font-face {
+  font-family: "Mephisto";
+  src: url("//https://www.dafont.com/es/mephisto.font") format("truetype");
 }
