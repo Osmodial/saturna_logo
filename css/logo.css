@@ -40,7 +40,7 @@ body
     display: flex;
     background-image: url(../images/logo.jpeg);
     background-position: center;
-    margin: -270px auto;
+    margin: -280px auto;
     justify-content: center;
     position: relative;
     width: 7%;
@@ -50,21 +50,33 @@ body
     filter: invert(0.85);
 }
 
+strong {
+  color: inherit;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
 .eslogan
 {
     border-radius: 10px;
-    font-family: 'Cutive Mono';
-    color: seagreen;
+    font-family: 'Arial';
+    background-image: url(https://i.pinimg.com/564x/6c/4a/23/6c4a234ad2ebc051945192fcf124ff17.jpg);
+    background-size: cover;
     font-size: 12px;
     font-weight: 900;
     display: flex;
-    margin: 300px auto;
+    margin: 286px auto;
     justify-content: center;
     position: relative;
-    background-color: silver;
+    color:floralwhite;
     width: max-content;
     padding: 5px;
     text-align: center;
+    background-size: 94%;
+    background-position-x: center;
+    background-position-y: -42px;
+    filter: invert(100%);
 }
 
 @font-face {
